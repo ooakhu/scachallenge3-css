@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 600px;
+}
+
+.saas {
+    display: flex;
+}
+
+.saas img {
+    width: 50px;
+    height: 50px;
+}
+
+.sandc {
+    display: flex;
+    width: 80px;
+    justify-content: space-evenly;
+}
+
+.first {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+
+}
+
+.first img {
+width: 1200px;
+height: 350px;
+}
+
+h3 {
+    text-align: center;
+}
+.in1 {
+    display: inline-block;
+    margin-top: 25px;
+}
+input[type="text"] {
+    width: 250px;
+    height: 30px;
+    padding-right: 50px;
+    border-radius: 20px;
+}
+
+input[type="submit"] {
+    background-color: #8AC03E;
+    margin-left: -65px;
+    height: 29px;
+    width: 60px;
+    color: white;
+    border: 0;
+    -webkit-appearance: none;
+    border-radius: 20px;
+}
+
+.asseenon {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 900px;
+    height: 60px;
+    box-shadow: seashell;
+}
+
+.asseenon img {
+    height: 50px;
+    width: 110px;
+}
+
+.second {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    
+}
+
+.sbox {
+    border-right: 1px solid silver;
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    margin: 5px 1px;
+    align-content: center;
+    text-align: center;
+}
+
+.sbox2 {
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    margin: 5px 1px;
+    align-content: center;
+    text-align: center;
+}
+
+.sbox img {
+    height: 100px;
+    width: 100px;
+}
+
+.sbox2 img {
+    height: 100px;
+    width: 100px;
+}
+
+.sbox button {
+    background-color: #8AC03E;
+    color: white;
+    border-radius: 20px;
+    height: 30px;
+}
+
+.sbox2 button {
+    background-color: #8AC03E;
+    color: white;
+    border-radius: 20px;
+    height: 30px;
+}
+
+.third {
+    width: 100%;
+    height: 600px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.thirdbox {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+    border-radius: 10px;
+}
+
+.thirdbox1 {
+    display: flex;
+    margin: 0px 30px;
+    box-shadow: ;
+    
+}
+
+.tbox {
+    width: 300px;
+    height: 100px;
+    margin: 5px 1px;
+    box-shadow: 2px 2px 2px 2px silver;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.fourth {
+    width: 100%;
+    height: 600px;
+    background-color: #F4F4F4;
+}
+
+.b1 {
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+}
+.b2 {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.b3 {
+    width: 150px;
+    height: 100px;
+    margin: 0px 10px;
+    box-shadow: 2px 2px 2px 2px silver;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    line-height: 3px;
+    display: inline-block;
+}
+
+.b3 img {
+    width: 50px;
+    height: 50px;
+}
